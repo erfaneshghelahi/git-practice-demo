@@ -1,4 +1,6 @@
-print('Hello from Git!')
+def greet(name):
+    return f"welcome, {name}!"
 
-name = input("what is your name?")
-print(f"Welcome,{name}.")
+print("Hello from Git!")
+name = input("what is your name ?")
+print(greet(name))
