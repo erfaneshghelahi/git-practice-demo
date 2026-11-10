@@ -1,6 +1,7 @@
-def greet(name):
-    return f"welcome, {name}!"
+def greet(name,city):
+    return f"welcome, {name} from {city}!"
 
 print("Hello from Git!")
 name = input("what is your name ?")
-print(greet(name))
+city = input("Which city are you in?")
+print(greet(name,city))
